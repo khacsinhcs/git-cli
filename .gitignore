@@ -1,0 +1,11 @@
+node_modules
+.xml
+.deploy
+deploy
+.idea
+idea
+*.dev
+dist
+.idea/
+build
+.vscode

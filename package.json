@@ -1,0 +1,40 @@
+{
+  "name": "git-cli",
+  "version": "1.0.0",
+  "description": "Utility git tool",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build --extensions \".ts,.tsx\" --source-maps inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khacsinhcs/git-cli.git"
+  },
+  "bin": {
+    "branch": "./build/branch.js"
+  },
+  "keywords": [],
+  "author": "khacsinhcs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khacsinhcs/git-cli/issues"
+  },
+  "homepage": "https://github.com/khacsinhcs/git-cli#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.3",
+    "ts-node": "^8.4.1"
+  }
+}

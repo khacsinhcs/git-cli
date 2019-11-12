@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "lib": ["esnext.asynciterable", "es5", "es6", "es7"],
+    "skipLibCheck": true,
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules", "./src/api/graphql/resolvers-types.ts"],
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"]
+}
